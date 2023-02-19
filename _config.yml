@@ -20,11 +20,10 @@ author: Some Person
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  what's this?: "whatsthis"
+  pages:
+    - the template i'm using: "https://beautifuljekyll.com"
+    - markdown stuff: "https://www.markdowntutorial.com/"
 
 ################
 # --- Logo --- #
