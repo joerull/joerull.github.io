@@ -41,6 +41,10 @@ round-avatar: true
 title-img: "/assets/img/joe_logo_dark.jpg"
 
 
+# If you want to have a favicon in the title bar of the page,
+# then you can specify the following parameter
+favicon: "/assets/img/avatar-icon.png"
+
 #####################################
 # --- Footer social media links --- #
 #####################################
