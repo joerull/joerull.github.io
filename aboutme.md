@@ -1,16 +1,7 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: what's going on here
+subtitle: what's the deal with this site anyway?
 ---
 
-My name is Inigo Montoya. I have the following qualities:
-
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+this is a pretty basic jekyll site i'm using as an sandbox to work on whatever i feel like making in my free time. if i had to guess, i'd say i'm probably just gonna use this for testing out vague digital ideas i have for work, or as an outlet for occasional data content because sometimes i just miss writing about sports. 
