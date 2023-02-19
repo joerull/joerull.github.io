@@ -350,7 +350,7 @@ img {
   {% unless site.round-avatar == false %}
     border-radius: 50%;
   {% endunless %}
-  display: block;
+  display: none;
 }
 
 .navbar-custom.top-nav-expanded .avatar-container {
