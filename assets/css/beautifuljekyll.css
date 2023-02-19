@@ -125,8 +125,8 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background-color: #ffffff;
-  border-bottom: 4px solid black;
+  background-color: #000000;
+  border-bottom: 4px solid #f9bb00;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   {% if site.navbar-img %}
     background-image: url({{ site.navbar-img | relative_url }});
@@ -384,7 +384,7 @@ img {
 
 footer {
   padding: 1.875rem 0;
-  border-top: 1px #EAEAEA solid;
+  border-top: 4px solid #f9bb00;;
   margin-top: 3.125rem;
   font-size: 0.875rem;
   background-color: {{ site.footer-col | default: "#EAEAEA" }};
@@ -395,11 +395,15 @@ footer {
 }
 
 footer p.text-muted {
-  color: {{ site.footer-text-col | default: "#777777" }} !important;
+    color: #ffffff !important;
+    font-family: "Press Start 2P";
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: .5px;
 }
 
 footer a {
-  color: {{ site.footer-link-col | default: "#404040" }};
+  color: #f9bb00;
 }
 
 footer a:hover,
@@ -413,10 +417,11 @@ footer .list-inline {
   margin-bottom: 1.875rem;
 }
 footer .copyright {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  text-align: center;
-  margin-bottom: 0;
-  margin-top: 0;
+    font-family: 'Press Start 2P';
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-transform: uppercase;
 }
 footer .theme-by {
   text-align: center;
@@ -436,8 +441,9 @@ footer .footer-custom-content {
     font-size: 1.125rem;
   }
   footer .copyright {
-    font-size: 1rem;
-  }
+    font-size: 10px;
+    letter-spacing: .25px;
+}
   footer .footer-custom-content {
     font-size: 1rem;
   }
@@ -680,6 +686,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 .intro-header .page-heading h1 {
   margin-top: 20px;
   font-size: 3.125rem;
+  text-transform: uppercase;
 }
 .intro-header .post-heading h1 {
   margin-top: 20px;
@@ -732,7 +739,8 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
     padding: 9.375rem 0;
   }
   .intro-header .page-heading h1 {
-    font-size: 5rem;
+    font-size: 2.5rem;
+    text-transform: uppercase;
   }
   .intro-header .post-heading h1 {
     font-size: 3.125rem;
