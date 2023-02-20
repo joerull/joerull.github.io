@@ -12,8 +12,8 @@ html {
 }
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
-  font-size: 1.125rem;
+  font-family: 'Roboto Condensed', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 18px;
   color: {{ site.text-col | default: "#404040" }};
   position: relative;
   background-color: {{ site.page-col | default: "#FFFFFF" }};
@@ -22,6 +22,7 @@ body {
   background-attachment: fixed;
   {% endif %}
   overflow-wrap: break-word;
+  font-weight: lighter;
 }
 p {
   line-height: 1.5;
@@ -229,7 +230,7 @@ img {
   }
 
   .navbar-custom .navbar-brand-logo img {
-    height: 100px;
+    height: 50px;
   }
 
   .navbar-expand-xl .navbar-nav .nav-link {
