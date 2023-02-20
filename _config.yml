@@ -24,6 +24,7 @@ navbar-links:
   pages:
     - the template i'm using: "https://beautifuljekyll.com"
     - markdown stuff: "https://www.markdowntutorial.com/"
+    - test html page: "testhtmlpage.html"
 
 ################
 # --- Logo --- #
