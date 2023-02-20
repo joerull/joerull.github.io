@@ -20,7 +20,7 @@ author: joe rull
 ###############################################
 
 navbar-links:
-  what's this?: "whatsthis"
+  what is this?: "whatsthis"
   pages:
     - test html page: "testhtmlpage.html"
 
