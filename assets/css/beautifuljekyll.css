@@ -36,9 +36,11 @@ h1 {
   font-family: 'Press Start 2P','Helvetica Neue', Helvetica, Arial, sans-serif !important;
 
 }
-h2 {
-  font-size: 1.875rem;
-  font-family: 'Press Start 2P','Helvetica Neue', Helvetica, Arial, sans-serif !important;
+h2  {
+    font-size: 1.25em;
+    font-family: 'Press Start 2P','Helvetica Neue', Helvetica, Arial, sans-serif !important;
+    text-transform: uppercase;
+    letter-spacing: 0.25px;
 }
 h3 {
   font-size: 1.5rem;
@@ -700,6 +702,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   margin: 0.625rem 0 0;
+  text-transform: none !important;
 }
 .intro-header .post-heading .post-subheading {
     margin-bottom: 1em;
