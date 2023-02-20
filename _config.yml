@@ -22,7 +22,7 @@ author: joe rull
 navbar-links:
   what is this?: "whatsthis"
   pages:
-    - test html page: "testhtmlpage.html"
+    - test html page: "testhtmlpage"
 
 ################
 # --- Logo --- #
