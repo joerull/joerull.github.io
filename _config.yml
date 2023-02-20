@@ -22,8 +22,6 @@ author: joe rull
 navbar-links:
   what's this?: "whatsthis"
   pages:
-    - the template i'm using: "https://beautifuljekyll.com"
-    - markdown stuff: "https://www.markdowntutorial.com/"
     - test html page: "testhtmlpage.html"
 
 ################
