@@ -58,6 +58,7 @@ div.byline {
   font-weight: lighter;
   font-size: 1.15rem;
   margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 a {
@@ -1148,6 +1149,12 @@ pre {
   }
 }
 
+div.hero-override .headline {
+  max-width: 850px;
+}
+div.hero-override .subhead {
+  max-width: 800px;
+}
 
 div.body-override  {
   margin: auto;
@@ -1156,9 +1163,3 @@ div.body-override  {
   font-size: 1.15rem;
 }
 
-
-.contianer-md {
-  max-width: 100% !important;
-  margin: auto !important;
-  padding: 0 !important;
-}
