@@ -21,7 +21,7 @@ author: joe rull
 
 navbar-links:
   what is this?: "whatsthis"
-  pages:
+  specials:
     - test html page: "testhtmlpage"
 
 ################
