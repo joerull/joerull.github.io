@@ -61,6 +61,10 @@ div.byline {
   margin-top: 1rem;
 }
 
+div.byline b, strong {
+  font-weight: 900;
+}
+
 a {
   color: {{ site.link-col | default: "#008AFF" }};
 }
