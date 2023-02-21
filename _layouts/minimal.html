@@ -16,6 +16,7 @@ common-ext-js:
 <!DOCTYPE html>
 <html lang="{{ page.language | default: site.language | default: 'en' }}">
   {% include nav.html %}
+{% include header.html type="page" %}
 
   {% include head.html %}
 
@@ -41,7 +42,7 @@ common-ext-js:
       {% endif %}
     </div>
 
-    {% include footer-minimal.html %}
+    {% include footer.html %}
 
     {% include footer-scripts.html %}
 
