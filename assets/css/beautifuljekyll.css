@@ -130,7 +130,7 @@ img {
 
 .navbar-custom {
   background-color: black;
-  border-bottom: none;
+  border-bottom: 4px solid white;
   font-family:'Roboto Condensed', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   {% if site.navbar-img %}
     background-image: url({{ site.navbar-img | relative_url }});
@@ -388,8 +388,8 @@ img {
 
 footer {
   padding: 1.875rem 0;
-  border-top: 4px solid #f9bb00;;
-  margin-top: 3.125rem;
+  border-top: 4px solid white;;
+  margin-top: 2.125rem;
   font-size: 0.875rem;
   background-color: {{ site.footer-col | default: "#EAEAEA" }};
   {% if site.footer-img %}
