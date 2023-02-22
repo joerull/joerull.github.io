@@ -401,7 +401,7 @@ img {
 footer {
   padding: 1.875rem 0;
   border-top: 4px solid white;;
-  margin-top: 2.125rem;
+  margin-top: 0rem;
   font-size: 0.875rem;
   background-color: {{ site.footer-col | default: "#EAEAEA" }};
   {% if site.footer-img %}
@@ -750,7 +750,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 }
 @media (min-width: 1200px) {
   .intro-header {
-    margin-top: 8rem;
+    margin-top: 5rem;
   }
   .intro-header.big-img {
     margin-top: 5.6875rem; /* Full navbar is small navbar + 20px padding on each side when expanded */
@@ -1221,7 +1221,7 @@ line-height: 1.4;
     left: 14rem;
 }
 div.home-wrapper{
-  background-image: url(assets/img/pixelkitchensource.jpg);
+  background-image: url(/assets/img/pixelkitchensource.jpg);
   background-size: contain;
   padding: 0;
   margin: 0;
