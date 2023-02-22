@@ -1180,7 +1180,7 @@ div.vert-move {
   100% { transform: translateY(-7px); }
 }
 div.button {
-  background-image: url(https://i.ibb.co/kX6DQk6/homepagebutton.png);
+  background-image: url("/assets/img/homepagebutton.png");
   background-repeat: no-repeat;
   height: 4.48rem;
   width: 16.64rem;
