@@ -1212,14 +1212,14 @@ line-height: 1.4;
     line-height: 1.4 !important;
   }
 
-div.home-text-holder {
-max-width: 800px;
-position: relative;
-top: 12%;
-left: 40%;
-color: black;
+  div.home-text-holder {
+    max-width: 800px;
+    margin: auto;
+    color: black;
+    position: relative;
+    top: 4rem;
+    left: 14rem;
 }
-
 div.home-wrapper{
   background-image: url(assets/img/pixelkitchensource.jpg);
   background-size: contain;
@@ -1231,3 +1231,8 @@ div.home-wrapper{
   background-repeat: no-repeat;
 }
 
+
+.main-content {
+  margin: 0 !important;
+  padding: 0 !important;
+}
