@@ -1230,3 +1230,24 @@ div.home-wrapper{
   max-width: 100vw;
   background-repeat: no-repeat;
 }
+
+
+@media screen and (max-width: 1110px) {
+  div.landing-text h1 {
+    line-height: 1.4 !important;
+    font-size: 1.5rem;
+}
+}
+
+@media screen and (max-width: 1110px) {
+  div.button {
+    height: 46px;
+    width: 171px;
+}
+}
+
+@media screen and (max-width: 1110px) {
+div.button-text {
+  font-size: 12px;
+}
+}
